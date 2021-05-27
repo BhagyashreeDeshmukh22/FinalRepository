@@ -25,7 +25,7 @@ public class BrowserFactory {
 		
 		else if(browser.equals("IE"))
 		{
-			System.setProperty("webdriver.gecko.driver" , "./Drivers/msedgedriver.exe");
+			System.setProperty("webdriver.gecko.driver" , "./Drivers/msedgedriver1.exe");
 			ldriver=new EdgeDriver();
 			ldriver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		}
