@@ -24,6 +24,4 @@ public class LoginTestCRM extends BaseClass{
 		Helper.Capturescreenshot(ldriver);//now this will capture screenshot when our test get pass but we want to take screenshot on fail test case as well
 		 Reporter.log("TestCase completed", true);
 	 }
-
-
 }
