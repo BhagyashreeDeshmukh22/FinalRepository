@@ -22,7 +22,7 @@ public class BrowserFactory {
 			ldriver=new FirefoxDriver();
 			ldriver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		}
-		
+
 		else if(browser.equals("IE"))
 		{
 			System.setProperty("webdriver.edge.driver" , "./Drivers/msedgedriver1.exe");
