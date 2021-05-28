@@ -61,8 +61,8 @@ public class BaseClass {
 		 Reporter.log("Setting up reports and Test is getting started", true);
 		excel=new ExcelDataProvider();
 		config =new ConfigDataProvider();
-		 ExtentHtmlReporter extent=new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Reports/Report1_"+Helper.getCurrentDateTime()+".html"));
-		// ExtentHtmlReporter extent=new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Reports/Report1.html"));
+		 //ExtentHtmlReporter extent=new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Reports/Report1_"+Helper.getCurrentDateTime()+".html"));
+		ExtentHtmlReporter extent=new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Reports/Report1.html"));
 		 report=new ExtentReports();
 		 report.attachReporter(extent);
 		 Reporter.log("Setting  done and Test get Started", true);
